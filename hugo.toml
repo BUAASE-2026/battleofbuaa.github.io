@@ -1,6 +1,6 @@
-baseURL = "https://battleofbuaa.github.io/"
+baseURL = "/"
 languageCode = "zh-cn" # 设置语言为中文
-publishDir = "docs"
+publishDir = "publish"
 title = "我的卡牌信息站" # 网站标题
 [module]
   [[module.imports]]

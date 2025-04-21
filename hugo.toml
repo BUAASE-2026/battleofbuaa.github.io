@@ -1,0 +1,69 @@
+baseURL = "https://battleofbuaa.github.io/"
+languageCode = "zh-cn" # 设置语言为中文
+publishDir = "docs"
+title = "我的卡牌信息站" # 网站标题
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# PaperMod 主题的特定配置 (示例)
+[params]
+  env = "production" # or "development"
+  title = "我的卡牌站"
+  description = "记录卡牌和羁绊信息"
+  # author = "Your Name"
+  # defaultTheme = "auto" # auto, light, dark
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  # disableSpecial1stPost = true
+  # comments = false # Disable comments section by default
+
+  [params.homeInfoParams]
+    Title = "欢迎来到卡牌信息站 👋"
+    Content = "这里存放着我收集的卡牌和羁绊信息。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername" # 替换成你的 GitHub 链接 (可选)
+
+  # 导航菜单
+  [[menu.main]]
+    identifier = "cards"
+    name = "卡牌列表"
+    url = "/cards/"
+    weight = 10
+  [[menu.main]]
+    identifier = "bonds"
+    name = "羁绊信息"
+    url = "/bonds/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+
+# 高亮配置 (如果需要)
+[markup.highlight]
+  # anchorLineNos = true
+  codeFences = true
+  guessSyntax = true
+  lineNos = true
+  # noClasses = false
+  style = "monokai" # 选择一个高亮主题
+
+# 其他配置可以参考 PaperMod 的文档: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation

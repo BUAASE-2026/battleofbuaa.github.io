@@ -2,7 +2,9 @@ baseURL = "/"
 languageCode = "zh-cn" # 设置语言为中文
 publishDir = "publish"
 title = "我的卡牌信息站" # 网站标题
-theme = [hugo-PaperMod]
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
 
 [pagination]
   pagerSize = 10

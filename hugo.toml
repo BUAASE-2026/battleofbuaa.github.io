@@ -66,4 +66,6 @@ buildExpired = false
   # noClasses = false
   style = "monokai" # 选择一个高亮主题
 
+  googleAnalytics = ""
+
 # 其他配置可以参考 PaperMod 的文档: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation

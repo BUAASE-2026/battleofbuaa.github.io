@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>PaperMod</title>
-    <link>http://localhost:1313/battleofbuaa.github.io/</link>
-    <description>Recent content on PaperMod</description>
+    <title>Battle of BUAA</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Battle of BUAA</description>
     <image>
-      <title>PaperMod</title>
-      <url>http://localhost:1313/battleofbuaa.github.io/images/papermod-cover.png</url>
-      <link>http://localhost:1313/battleofbuaa.github.io/images/papermod-cover.png</link>
+      <title>Battle of BUAA</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.146.6</generator>
-    <language>en</language>
+    <language>zh</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Mon, 21 Apr 2025 17:37:04 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/battleofbuaa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/battleofbuaa.github.io/posts/my-first-post/</link>
+      <title>第一张卡牌</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Mon, 21 Apr 2025 17:37:04 +0800</pubDate>
-      <guid>http://localhost:1313/battleofbuaa.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;111&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,7 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://buaase-2026.github.io/battleofbuaa.github.io/"
-title: PaperMod
+baseURL: "http://localhost:1313/" # 本地测试用 - hugo server -D
+# "https://buaase-2026.github.io/battleofbuaa.github.io/"
+title: Battle of BUAA
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
 theme: PaperMod
 
@@ -22,88 +23,104 @@ pagination:
   disableAliases: false
   pagerSize: 5
 
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+languageCode: "zh"
+defaultContentLanguage: "zh"
 
-  fr:
-    languageName: ":fr:"
-    weight: 2
-    title: PaperModL2
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: NullLink
-          url: "#"
+menu:
+  main:
+    - name: 归档
+      url: archives
+      weight: 10
+    - name: 分类
+      url: categories/
+      weight: 20
+    - name: 标签
+      url: tags/
+      weight: 30
+    - name: 搜索
+      url: search/
+      weight: 40
 
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      languageAltTitle: French
-      profileMode:
-        enabled: true
-        title: PaperMod
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        imageTitle: ProfileMode image
-        # imageWidth: 120
-        # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+# languages:
+#   en:
+#     languageName: "English"
+#     weight: 1
+#     taxonomies:
+#       category: categories
+#       tag: tags
+#       series: series
+#     menu:
+#       main:
+#         - name: Archive
+#           url: archives
+#           weight: 5
+#         - name: Search
+#           url: search/
+#           weight: 10
+#         - name: Tags
+#           url: tags/
+#           weight: 10
 
-  fa:
-    languagedirection: rtl
-    weight: 3
-    title: PaperMod RTL
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-      main:
-        - name: FATags
-          url: fatags
-          weight: 10
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to RTL layout
+#   fr:
+#     languageName: ":fr:"
+#     weight: 2
+#     title: PaperModL2
+#     taxonomies:
+#       category: FRcategories
+#       tag: FRtags
+#       series: FRseries
+#     menu:
+#       main:
+#         - name: Archive
+#           url: archives/
+#           weight: 5
+#         - name: FRTags
+#           url: frtags
+#           weight: 10
+#         - name: FRCategories
+#           url: frcategories
+#           weight: 10
+#         - name: FRSeries
+#           url: frseries
+#           weight: 10
+#         - name: NullLink
+#           url: "#"
+
+#     # custom params for each language should be under [langcode].parms - hugo v0.120.0
+#     params:
+#       languageAltTitle: French
+#       profileMode:
+#         enabled: true
+#         title: PaperMod
+#         imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+#         imageTitle: ProfileMode image
+#         # imageWidth: 120
+#         # imageHeight: 120
+#         subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+#         buttons:
+#           - name: Blog
+#             url: posts
+#           - name: Profile Mode
+#             url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+
+#   fa:
+#     languagedirection: rtl
+#     weight: 3
+#     title: PaperMod RTL
+#     taxonomies:
+#       category: FAcategories
+#       tag: FAtags
+#       series: FAseries
+#     menu:
+#       main:
+#         - name: FATags
+#           url: fatags
+#           weight: 10
+#     # custom params for each language should be under [langcode].parms - hugo v0.120.0
+#     params:
+#       homeInfoParams:
+#         Title: "Hi there \U0001F44B"
+#         Content: Welcome to RTL layout
 
 outputs:
   home:
@@ -116,6 +133,10 @@ params:
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
+
+  assets:
+    css:
+      - css/extra.css
 
   defaultTheme: auto
   # disableThemeToggle: true
@@ -147,29 +168,29 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
-    Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
+    Title: "Battle of BUAA · 卡牌资料站"
+    Content: |
+      🃏 欢迎来到 **Battle of BUAA** 卡牌资料站！
 
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+      在这里你可以查阅完整的卡牌信息，包括：
 
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
+      - ⭐ [羁绊关系](/bonds)
+      - 💥 [技能机制](/skills)
+      - 📊 [数值数据](/stats)
 
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+      我们会持续更新最新版本的卡池、阵容推荐与战术指南。
+
+      如果你是开发者或玩家，也欢迎在 [GitHub](ttps://github.com/BUAASE-2026) 提交建议或反馈问题！
+
 
   socialIcons:
-    - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+  - name: github
+    title: 源码仓库
+    url: "https://github.com/BUAASE-2026"
+  - name: email
+    title: 联系我们
+    url: "mailto:code@battleofbuaa.cn"
+
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"

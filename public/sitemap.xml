@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://battleofbuaa.cn/cards/</loc>
-    <lastmod>2025-04-20T21:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://battleofbuaa.cn/tags/</loc>
-    <lastmod>2025-04-20T21:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://battleofbuaa.cn/</loc>
-    <lastmod>2025-04-20T21:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://battleofbuaa.cn/tags/%E6%94%BB%E5%87%BB%E5%9E%8B/</loc>
-    <lastmod>2025-04-20T21:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://battleofbuaa.cn/tags/%E7%81%AB%E5%B1%9E%E6%80%A7/</loc>
-    <lastmod>2025-04-20T21:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://battleofbuaa.cn/cards/sample-card/</loc>
-    <lastmod>2025-04-20T21:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://battleofbuaa.cn/categories/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/battleofbuaa.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2025-04-21T17:37:04+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/battleofbuaa.github.io/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/battleofbuaa.github.io/fa/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

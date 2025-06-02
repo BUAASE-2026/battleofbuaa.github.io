@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Abouts on Battle of BUAA</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Battle of BUAA</description>
+    <image>
+      <title>Battle of BUAA</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>zh</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Mon, 21 Apr 2025 17:37:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于我们</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 21 Apr 2025 17:37:04 +0800</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h1 id=&#34;buaa-软工团队&#34;&gt;BUAA 软工团队&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>

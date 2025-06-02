@@ -19,7 +19,14 @@
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Mon, 21 Apr 2025 17:37:04 +0800</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;111&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img alt=&#34;技能示意图&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/icon.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于我们</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 21 Apr 2025 17:37:04 +0800</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h1 id=&#34;buaa-软工团队&#34;&gt;BUAA 软工团队&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

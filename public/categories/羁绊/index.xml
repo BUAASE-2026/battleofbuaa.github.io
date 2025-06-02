@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>羁绊 on Battle of BUAA</title>
+    <link>http://localhost:1313/categories/%E7%BE%81%E7%BB%8A/</link>
+    <description>Recent content in 羁绊 on Battle of BUAA</description>
+    <image>
+      <title>Battle of BUAA</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>zh</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Mon, 21 Apr 2025 17:37:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%BE%81%E7%BB%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一张卡牌</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 21 Apr 2025 17:37:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

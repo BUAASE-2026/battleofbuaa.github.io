@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bonds on Battle of BUAA</title>
+    <link>http://localhost:1313/bond/</link>
+    <description>Recent content in Bonds on Battle of BUAA</description>
+    <image>
+      <title>Battle of BUAA</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.146.6</generator>
+    <language>zh</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bond/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>亡灵</title>
+      <link>http://localhost:1313/bond/first_bond/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bond/first_bond/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

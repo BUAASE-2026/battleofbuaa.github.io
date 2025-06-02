@@ -49,7 +49,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Update theme to latest commit
-        run: git submodule update --remote --merge --allow-unrelated-histories
+        run: git submodule update --remote --init themes/PaperMod
 
       - name: Build with Hugo
         run: |
